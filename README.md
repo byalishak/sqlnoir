@@ -26,3 +26,13 @@ SQL Noir puts you in the shoes of a data detective. Each case presents a differe
 4. Ran database migrations with:
    ```bash
    supabase db push
+
+As a data analyst with interests in data engineering and real-world problem solving, I wanted to:
+
+Practice SQL in a storytelling environment
+
+Explore Supabase for modern backend development
+
+Showcase a project that blends data querying, frontend logic, and developer tooling
+
+
