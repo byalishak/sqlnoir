@@ -1,77 +1,28 @@
-# SQL Noir 🔍
+# 🕵️‍♀️ SQL Noir – Crime Scene Data Analysis Game
 
-[➡️ Play the game online at sqlnoir.com](https://sqlnoir.com)
+Welcome to my local deployment of **SQL Noir**, an open-source crime-solving game that sharpens your SQL skills. I set up and customized this project to practice real-world querying, Supabase integration, and Vite app deployment — while also showcasing a bit of fun data storytelling.
 
-Step into the shoes of a real detective and solve crimes using SQL! SQL Noir is an interactive mystery-solving game where you crack cases by writing SQL queries.
+## 🔍 About the Game
 
-## About
+SQL Noir puts you in the shoes of a data detective. Each case presents a different crime — from theft to murder — and your job is to solve it by writing SQL queries against a relational database.
 
-Welcome to SQL Noir, where you're a data detective solving criminal cases through the power of SQL. Each case file presents you with a unique crime scenario and a database full of evidence. Your mission is to:
+---
 
-- Uncover suspicious patterns in the data
-- Track down missing records
-- Connect the dots between suspects
-- Expose fraudulent transactions
-- Piece together the evidence using SQL
+## 🛠️ Tech Stack
 
-## Getting Started
+- **SQL** – Core query language used for all challenges
+- **Supabase** – Open-source backend-as-a-service (PostgreSQL + API)
+- **Vite + React** – Lightweight frontend for the game UI
+- **TypeScript** – Ensures better structure and maintainability
+- **Node.js + NPM** – Environment management
 
-1. Clone this repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Go to [Supabase](https://supabase.com/) and create a new project
-4. Copy the generated `anon public key` and `Project URL` from the project
-5. Create a `.env.local` file at the root of the project and set the following environment variables:
-   ```bash
-   VITE_SUPABASE_ANON_KEY=your_anon_key
-   VITE_SUPABASE_URL=your_supabase_url
-   ```
-6. Install Supabase CLI:
+---
 
-   - Follow the instructions at [Supabase CLI](https://supabase.com/docs/guides/local-development/cli/getting-started)
+## 🚀 My Setup Steps
 
-7. Login to Supabase:
-
-   ```bash
-   supabase login
-   ```
-
-8. Link your project ( You need to be in the root of the project to run this command ):
-
-   ```bash
-   supabase link
-   ```
-
-   - Select the project you just created when prompted
-
-9. Run database migrations:
-
+1. **Cloned the repository locally**
+2. Created a **Supabase project** and connected it to this repo using the CLI
+3. Set up the `.env` file with my project’s API details
+4. Ran database migrations with:
    ```bash
    supabase db push
-   ```
-
-10. Start the development server:
-
-    ```bash
-    npm run dev
-    ```
-
-11. Open your browser and navigate to `http://localhost:5173`
-
-## Case Files
-
-Each case in SQL Noir is a unique crime that needs solving. Cases range from simple thefts to complex murders, organized by difficulty level. Put your SQL skills to the test and climb the ranks from rookie to master detective.
-
-## Join the Detective Agency
-
-We welcome new detectives! Whether you want to:
-
-- Submit new cases for others to solve
-- Improve existing investigations
-- Fix bugs in the system
-- Enhance the detective interface
-- Improve documentation
-
-Check the [Contributing Guidelines](CONTRIBUTING.md) to join the force and help make SQL Noir even better.
